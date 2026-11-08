@@ -1,45 +1,16 @@
-# React Clock
+# React + Vite
 
-A simple React app that displays the current date and time, formatted with [date-fns](https://date-fns.org/). Built with Vite.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Shows the current date and time using `format` from date-fns
-- Styled with custom CSS (blue and cyan color theme)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Prerequisites
+## React Compiler
 
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- npm (comes with Node.js)
-- Git
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Run the project locally
+## Expanding the ESLint configuration
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/marthamwangi2-art/react-clock.git
-   ```
-2. Go into the project folder:
-   ```bash
-   cd react-clock
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-5. Open the local URL shown in the terminal (usually `http://localhost:5173`) in your browser.
-
-## Technologies
-
-- React
-- Vite
-- date-fns
-- CSS
-
-## Author
-
-Martha Nungari
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
